@@ -1,0 +1,86 @@
+.style-switcher {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    padding: 15px;
+    width: 200px;
+    background: #ffffff;
+    z-index: 101;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(100%);
+    border: 2px solid var(--background-color);
+}
+
+.style-switcher.open {
+    transform: translateX(-25px);
+}
+
+.style-switcher .s-icon {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 20px;
+    background: var(--background-color);
+    color: var(--skin-color);
+    right: 100%;
+    margin-right: 25px;
+    cursor: pointer;
+    transform: all 0.3s ease;
+    border-radius: 50%;
+}
+
+.style-switcher .s-icon i {
+    line-height: 40px;
+}
+
+.style-switcher .style-switcher-togler {
+    top: 0;
+}
+
+.style-switcher .day-night {
+    top: 55px;
+}
+
+.style-switcher h4 {
+    margin: 0 0 10px;
+    color: var(--skin-color);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.style-switcher .colors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.style-switcher .colors span {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+} 
+
+.style-switcher .color-1 {
+    background: #006eff;
+}
+
+.style-switcher .color-2 {
+    background: #2de408;
+}
+
+.style-switcher .color-3 {
+    background: #ff0000;
+}
+
+.style-switcher .color-4 {
+    background: #ff6600;
+}
+
+.style-switcher .color-5 {
+    background: #b40fb9;
+}
+
